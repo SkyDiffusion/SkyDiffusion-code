@@ -50,7 +50,7 @@ After unzipping the datasets, prepare the training and testing data as discussed
  1. You can download a pre-trained model (e.g. cvact) from [huggingface](https://huggingface.co/SkyDiff1109/SkyDiffusion_ckpt/tree/main) and place it in ckpt folder.
  2. Use the provided pre-trained model to generate aerial images according to the following code:
 ```bash
-python test.py \
+python skydiffusion_test.py \
     --num_gpus=8 \
     --config_path=./models/lacldm_v15.yaml \
     --image_width=512 --image_height=512 \
