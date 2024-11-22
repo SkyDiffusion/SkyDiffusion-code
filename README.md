@@ -36,6 +36,8 @@ conda env update --name skydiffusion --file environment.yaml
 ## Data Preparation
 The publicly available datasets used in this paper can be obtained from the following sources: 
 
+**Preparing G2A-3 Dataset.**  The dataset can be downloaded [here](https://huggingface.co/datasets/SkyDiff1109/G2A-3). 
+
 **Preparing CVUSA Dataset.**  The dataset can be downloaded [here](https://mvrl.cse.wustl.edu/datasets/cvusa). 
 
 **Preparing CVACT Dataset.**  The dataset can be downloaded [here](https://github.com/Liumouliu/OriCNN). 
